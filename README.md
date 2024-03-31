@@ -10,7 +10,7 @@
 
 ## Segmentation Foundation Models
 
-| <p align="center"> Date </p> | Institute (first) |<p align="center">Paper Name </p> | <p align="center"> Architecture </p>|<p align="center"> Publication|<p align="center"> Others |
+| <p align="center"> Date | Institute (first) |<p align="center">Paper Name | <p align="center"> Architecture |<p align="center"> Publication|<p align="center"> Others |
 | :-----: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------:| :---------:
 | 2024-03-20 | WHU | MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining |   - |[Arxiv](https://arxiv.org/abs/2403.13430) |[Github](https://github.com/ViTAE-Transformer/MTP/tree/main) |
 | 2023-10-13 | WHU | SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model|  - |[NeurIPS](https://arxiv.org/abs/2204.02825) | [Github](https://github.com/ViTAE-Transformer/SAMRS) |
@@ -25,11 +25,11 @@
 
 
 ## 2D Segmentation Benchmarks 
-|  Date | Institute (first) |<center> Paper/Benchmark Name | Publication | Others |
+| <p align="center"> Date |<p align="center"> Institute (first) |<p align="center"> Paper/Benchmark Name |<p align="center"> Publication |<p align="center"> Others |
 | :-----: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------:
 | 2023-10-10 | WHU | A large-scale climate-aware satellite image dataset for domain adaptive land-cover semantic segmentation | [ISPRS](https://doi.org/10.1016/j.isprsjprs.2023.09.007) | [Github](-) |
 | 2021-10-17 |WHU | LoveDA: A Remote Sensing Land-Cover Dataset for Domain Adaptive Semantic Segmentation | [NeurIPS](https://www.researchgate.net/publication/355390292_LoveDA_A_Remote_Sensing_Land-Cover_Dataset_for_Domain_Adaptive_Semantic_Segmentation) | [Github](https://github.com/Junjue-Wang/LoveDA) |
 | 2019-05-30 |Inceptionai | iSAID: A Large-scale Dataset for Instance Segmentation in Aerial Images | [CVPR Workshop](https://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Zamir_iSAID_A_Large-scale_Dataset_for_Instance_Segmentation_in_Aerial_Images_CVPRW_2019_paper.pdf) | [Website](https://captain-whu.github.io/iSAID/index.html) |
-| - |ISPRS | <center>Potsdam | [Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-vaihingen.aspx) | [Download](https://pan.baidu.com/share/init?surl=K-cLVZnd1X7d8c26FQ-nGg&pwd=mseg) |
-| - |ISPRS | <center>Vaihingen | [Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx) | [Download](https://pan.baidu.com/s/109D3WLrLafsuYtLeerLiiA?pwd=mseg) |
+| - |ISPRS |Potsdam | [Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-vaihingen.aspx) | [Download](https://pan.baidu.com/share/init?surl=K-cLVZnd1X7d8c26FQ-nGg&pwd=mseg) |
+| - |ISPRS | Vaihingen | [Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx) | [Download](https://pan.baidu.com/s/109D3WLrLafsuYtLeerLiiA?pwd=mseg) |
 
