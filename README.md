@@ -1,6 +1,8 @@
 
-# Remote Sensing Foundation Models with Benchmarks
+# 🏡 Remote Sensing Foundation Models and Benchmarks
+Hi! 🌊🌊🌊 I'm [Ziyang Gong](https://scholar.google.com/citations?user=cWip8QgAAAAJ&hl=zh-CN&oi=ao). <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.Foundation-Models-in-Remote-Sensing&left_color=%23DFA3CB&right_color=%23CEE75F"> </a>  
 
+[Zhixiang Wei](https://scholar.google.com/citations?user=i5W4i9YAAAAJ&hl=zh-CN&oi=sra) and me curate this collection aiming to help researchers to know the development of semantic segmentation foundation models in remote sensing quickly. This collection contains foundation models and various benchmarks. It also will be continually updating. If you have any question or advice, please feel free to contact me. This is my email📧: gongzy23@sysu.mail2.edu.cn.   
 
 ## Table of Content
 
@@ -19,7 +21,7 @@
 | 2022-07-28 | AIR, CAS |<p align="center"> RingMo: A Remote Sensing Foundation Model With Masked Image Modeling |  - |[TGRS](https://drive.google.com/file/d/1MVP31ksrMKgFUQJMItZcrPfXtAJZ7Wbc/view) | - |
 | 2022-12-08 | WHU|<p align="center"> Advancing Plain Vision Transformer Toward Remote Sensing Foundation Model |  - |[TGRS](https://arxiv.org/pdf/2208.03987.pdf) | [Github](https://github.com/vitae-transformer/remote-sensing-rvsa) |
 | 2022-04-06 | WHU |<p align="center"> An Empirical Study of Remote Sensing Pretraining |  - |[TGRS](https://arxiv.org/abs/2204.02825) | [Github](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)|
-| 2023-11-29 | BUAA |<p align="center"> RSPrompter: Learning to Prompt for Remote Sensing Instance Segmentation Based on Visual Foundation Model |  - |[TGRS](https://arxiv.org/abs/2204.02825) | - |
+| 2023-11-29 | BHU |<p align="center"> RSPrompter: Learning to Prompt for Remote Sensing Instance Segmentation Based on Visual Foundation Model |  - |[TGRS](https://arxiv.org/abs/2204.02825) | - |
 | 2024-03-22 | Ant Group |<p align="center"> SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery |  - |[CVPR](https://arxiv.org/pdf/2312.10115.pdf) | - |
 
 
