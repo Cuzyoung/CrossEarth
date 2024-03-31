@@ -1,9 +1,10 @@
 
 # 🏡 Remote Sensing Foundation Models and Benchmarks
-Hi! 🌊🌊🌊 I'm [Ziyang Gong](https://scholar.google.com/citations?user=cWip8QgAAAAJ&hl=zh-CN&oi=ao). <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.Foundation-Models-in-Remote-Sensing&left_color=%23DFA3CB&right_color=%23CEE75F"> </a>  
+Hi! 🌊🌊🌊 I'm [Ziyang Gong](https://scholar.google.com/citations?user=cWip8QgAAAAJ&hl=zh-CN&oi=ao). 
 
 [Zhixiang Wei](https://scholar.google.com/citations?user=i5W4i9YAAAAJ&hl=zh-CN&oi=sra) and me curate this collection aiming to help researchers to know the development of semantic segmentation foundation models in remote sensing quickly. This collection contains foundation models and various benchmarks. It also will be continually updating. If you have any question or advice, please feel free to contact me. This is my email📧: gongzy23@sysu.mail2.edu.cn.   
 
+<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.Foundation-Models-in-Remote-Sensing&left_color=blue&right_color=%23CEE75F"> </a>  
 ## Table of Content
 
   - [Segmentation foundation models](##Segmentation)
