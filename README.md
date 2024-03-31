@@ -10,7 +10,7 @@
 
 ## Segmentation Foundation Models
 
-|  Date | Institute (first) |<p align="center">Paper Name </p> | Architecture | Publication| Others |
+| <p align="center"> Date </p> | Institute (first) |<p align="center">Paper Name </p> | <p align="center"> Architecture </p>|<p align="center"> Publication|<p align="center"> Others |
 | :-----: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------:| :---------:
 | 2024-03-20 | WHU | MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining |   - |[Arxiv](https://arxiv.org/abs/2403.13430) |[Github](https://github.com/ViTAE-Transformer/MTP/tree/main) |
 | 2023-10-13 | WHU | SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model|  - |[NeurIPS](https://arxiv.org/abs/2204.02825) | [Github](https://github.com/ViTAE-Transformer/SAMRS) |
