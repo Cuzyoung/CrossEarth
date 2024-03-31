@@ -9,7 +9,8 @@
 
 
 ## Segmentation Foundation Models
-|  Date | Institute (first) |<center> Paper Name </center>| Architecture | Publication| Others |
+
+|  Date | Institute (first) |<p align="center">Paper Name </p> | Architecture | Publication| Others |
 | :-----: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :---------:| :---------:
 | 2024-03-20 | WHU | MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining |   - |[Arxiv](https://arxiv.org/abs/2403.13430) |[Github](https://github.com/ViTAE-Transformer/MTP/tree/main) |
 | 2023-10-13 | WHU | SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model|  - |[NeurIPS](https://arxiv.org/abs/2204.02825) | [Github](https://github.com/ViTAE-Transformer/SAMRS) |
@@ -31,5 +32,4 @@
 | 2019-05-30 |Inceptionai | iSAID: A Large-scale Dataset for Instance Segmentation in Aerial Images | [CVPR Workshop](https://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Zamir_iSAID_A_Large-scale_Dataset_for_Instance_Segmentation_in_Aerial_Images_CVPRW_2019_paper.pdf) | [Website](https://captain-whu.github.io/iSAID/index.html) |
 | - |ISPRS | <center>Potsdam | [Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-vaihingen.aspx) | [Download](https://pan.baidu.com/share/init?surl=K-cLVZnd1X7d8c26FQ-nGg&pwd=mseg) |
 | - |ISPRS | <center>Vaihingen | [Website](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx) | [Download](https://pan.baidu.com/s/109D3WLrLafsuYtLeerLiiA?pwd=mseg) |
-
 
