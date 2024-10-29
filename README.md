@@ -18,15 +18,18 @@ Ziyang Gong<sup>1 ∗</sup>, Zhixiang Wei<sup>2 ∗</sup>, Di Wang<sup>3 ∗</su
 <img src="images/teaser_new.png" width="100%">
 
 </div>
+<br>
+<br>
 
-## 🔥🔥🔥 News
+# 🔥🔥🔥 News
 
 - The inference code is out and you can access it at [here](https://github.com/Cuzyoung/CrossEarth). The environment and inference steps please refer to the following installation. The weights will be coming soon.
 
 - 🎉🎉🎉 CrossEarth is the first VFM for Remote Sensing Domain Generalization (RSDG) semantic segmentation. We just release the arxiv paper of CrossEarth. You can access CrossEarth at [here](https://arxiv.org/abs/2410.12345). 
 
+<br>
 
-## Table of Content
+# 📑 Table of Content
 - [Installation](#installation)
 - [Model Weights with Configs](#model-weights-with-configs)
 - [Citation](#citation)
@@ -37,7 +40,8 @@ Ziyang Gong<sup>1 ∗</sup>, Zhixiang Wei<sup>2 ∗</sup>, Di Wang<sup>3 ∗</su
 
 
 
-# Model Weights with Configs
+
+## Model Weights with Configs
 
 | Dataset | Benchmark | Model | Config | Log |
 |----------|----------|-------| -------| ----|
