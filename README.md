@@ -104,7 +104,7 @@ Ziyang Gong<sup>1 ∗</sup>, Zhixiang Wei<sup>2 ∗</sup>, Di Wang<sup>3 ∗</su
 | - |Potsdam (R-G-B)| RescueNet (R-G-B) |15|
 | CASID |SubTropical Moonsoon (SubMs)| TroMs, TemMs, TroRf|-|  
 | - |Tropical Moonsoon (TroMs)| SubMs, TemMs, TroRf|-|  
-| - |Temperate Moonsoon (TemMs)| SubMsMs, TroMs, TroRf|-|  
+| - |Temperate Moonsoon (TemMs)| SubMs, TroMs, TroRf|-|  
 | - |Tropical Rainforest (TroRf)| SubMs, TroMs, TemMs|-|
 |WHU|Aerial|Satellite II| 5, 8|
 |-|Satellite II|Aerial| 5, 8|
