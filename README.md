@@ -23,22 +23,42 @@ Ziyang Gong<sup>1 ∗</sup>, Zhixiang Wei<sup>2 ∗</sup>, Di Wang<sup>3 ∗</su
 
 # 🔥🔥🔥 News
 
-- The inference code is out and you can access it at [here](https://github.com/Cuzyoung/CrossEarth). The environment and inference steps please refer to the following installation. The weights will be coming soon.
+- The environment and inference steps please refer to the following installation. The inference codes and weights will be coming soon.
+
+- The benchmark collection in the paper is releasing and you can access it at [here](https://github.com/Cuzyoung/CrossEarth). 
 
 - 🎉🎉🎉 CrossEarth is the first VFM for Remote Sensing Domain Generalization (RSDG) semantic segmentation. We just release the arxiv paper of CrossEarth. You can access CrossEarth at [here](https://arxiv.org/abs/2410.12345). 
 
 <br>
 
 # 📑 Table of Content
+- [Visualization](#visualization)
 - [Installation](#installation)
 - [Model Weights with Configs](#model-weights-with-configs)
-- [Citation](#citation)
+<!-- - [Citation](#citation)
+ -->
 
+
+## Visualization  
+<img src="images/visual.png" width="100%">
 
 
 ## Installation
 
-
+Environment:
+```bash
+conda create -n CrossEarth -y
+conda activate CrossEarth
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia -y
+pip install -U openmim
+mim install mmengine
+mim install "mmcv>=2.0.0"
+pip install "mmsegmentation>=1.0.0"
+pip install "mmdet>=3.0.0"
+pip install xformers=='0.0.20' 
+pip install -r requirements.txt
+pip install future tensorboard
+```
 
 
 ## Model Weights with Configs
@@ -88,7 +108,9 @@ If you find CrossEarth helpful, please consider giving this repo a ⭐ and citin
   year={2024}
 }
 ```
-
+# Other Related Works
+- [MTP: Advancing remote sensing foundation model via multi-task pretraining](https://arxiv.org/abs/2403.13430)
+- [Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2312.04265)
 
 
 
