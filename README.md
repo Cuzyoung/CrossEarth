@@ -12,8 +12,7 @@
 
 <sup>∗</sup> Equal contribution, <sup>†</sup> Corresponding author
 
-<!-- <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a>   -->
-<a href="https://github.com/Cuzyoung/CrossEarth/stargazers"><img src="https://img.shields.io/badge/Updating-63C7E6?style=flat"></a>
+<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a>  <a href="https://github.com/Cuzyoung/CrossEarth/stargazers"><img src="https://img.shields.io/badge/Updating-F87AF0?style=flat"></a>
 
 <img src="images/teaser_new.png" width="100%">
 
@@ -29,7 +28,6 @@
 
 - 🎉🎉🎉 CrossEarth is the first VFM for Remote Sensing Domain Generalization (RSDG) semantic segmentation. We just release the arxiv paper of CrossEarth. You can access CrossEarth at [here](https://arxiv.org/abs/2410.12345). 
 
-<br>
 
 # 📑 Table of Content
 - [Visualization](#visualization)
@@ -59,6 +57,22 @@ pip install xformers=='0.0.20'
 pip install -r requirements.txt
 pip install future tensorboard
 ```
+Inference steps:
+
+First, download the model weights and put them in the ./checkpoints folder (we are uploading, and not available now).
+```bash
+cd checkpoints
+run download_weights.py
+```
+or you can download the weights from the following links:
+
+
+Second, change the file path in experiment config files (__configs/base/datasets/xxx.py__ and __configs/CrossEarth_dinov2/xxx.py__), and run the following command to inference. (Take 512x512 inference as an example)
+```bash
+python tools/test.py configs/CrossEarth_dinov2/CrossEarth_dinov2_mask2former_512x512_bs1x4.py ./checkpoints/xxx.pth
+```
+Notably, save path of pseudo labels is in the experiment config file. When testing CrossEarth on different benchmarks, you also need to change the class number in [CrossEarth_dinov2_mask2former.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/models/CrossEarth_dinov2_mask2former.py) file.
+
 
 
 ## Model Weights with Configs
