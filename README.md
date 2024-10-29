@@ -69,6 +69,19 @@ Ziyang Gong<sup>1 ∗</sup>, Zhixiang Wei<sup>2 ∗</sup>, Di Wang<sup>3 ∗</su
 | OpenEarthMap |73 regions| 24 regions|12| 
 |FLAIR #1| D06, D08, D13, D17, D23, D29, D33, D58, D67, D74|D64, D68, D71|12, 13|512x512 -->
 
+# Citation
+
+If you find CrossEarth helpful, please consider giving this repo a ⭐ and citing:
+
+```
+@article{crossearth,
+  title={CrossEarth: Geospatial Vision Foundation Model for Domain Generalizable Remote Sensing Semantic Segmentation},
+  author={Gong, Ziyang and Wei, Zhixiang and Wang, Di and Ma, Xianzheng and Chen, Hongruixuan and Jia, Yuru and Deng, Yupeng and Ji, Zhenming and Zhu, Xiangwei and Yokoya, Naoto and Zhang, Jing and Du, Bo and Zhang, Liangpei},
+  journal={arXiv preprint arXiv:2410.12345},
+  year={2024}
+}
+```
+
 
 
 
