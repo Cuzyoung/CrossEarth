@@ -69,6 +69,12 @@ Ziyang Gong<sup>1 ∗</sup>, Zhixiang Wei<sup>2 ∗</sup>, Di Wang<sup>3 ∗</su
 | OpenEarthMap |73 regions| 24 regions|12| 
 |FLAIR #1| D06, D08, D13, D17, D23, D29, D33, D58, D67, D74|D64, D68, D71|12, 13|512x512 -->
 
+# Models
+
+| Benchmark | Model | Config | Log |
+|----------|-------| -------| ----|
+|P(r)2V| Coming Sonn | Coming Sonn |Coming Sonn |
+
 # Citation
 
 If you find CrossEarth helpful, please consider giving this repo a ⭐ and citing:
