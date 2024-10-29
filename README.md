@@ -12,7 +12,7 @@
 
 <sup>∗</sup> Equal contribution, <sup>†</sup> Corresponding author
 
-<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a>  <a href="https://github.com/Cuzyoung/CrossEarth/stargazers"><img src="https://img.shields.io/badge/Updating-F87AF0?style=flat"></a>
+<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a><a href="https://github.com/Cuzyoung/CrossEarth/stargazers"><img src="https://img.shields.io/badge/Updating-F87AF0?style=flat"></a>
 
 <img src="images/teaser_new.png" width="100%">
 
