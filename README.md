@@ -13,7 +13,7 @@
 <sup>∗</sup> Equal contribution, <sup>†</sup> Corresponding author
 
 <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a>
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Cuzyoung/CrossEarth/)
+<img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 <img src="https://img.shields.io/github/stars/Cuzyoung/CrossEarth.svg?logo=github&label=Stars&color=white">
 
 <a href="https://cuzyoung.github.io/CrossEarth-Homepage/"><img src="https://img.shields.io/badge/HomePage-F5788D?style=for-the-badge&logo&logoColor=white" style="width: 79px;"></a>
