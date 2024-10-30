@@ -18,8 +18,8 @@
 <a href="https://cuzyoung.github.io/CrossEarth-Homepage/"><img src="https://img.shields.io/badge/HomePage-F5788D?style=for-the-badge&logo&logoColor=white" style="width: 79px;"></a>
 <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" style="width: 80px;"></a>
 <a href="https://www.linkedin.com/in/ziyang-gong-382a182b1/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" style="width: 90px;"></a>
-<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Google Drive-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" style="width: 115px;"></a>
-<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Baidu Netdisk-0078D4.svg?style=for-the-badge&logo=Baidu&logoColor=white" style="width: 120px;"></a>
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Baidu Netdisk-63C7E6.svg?style=for-the-badge&logo=Baidu&logoColor=white" style="width: 123px;"></a>
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Huggingface-purple?style=for-the-badge&logo=Huggingface&logoColor=ffd21e" style="width: 113px;"></a>
 
 <img src="images/teaser_new.png" width="100%">
 
