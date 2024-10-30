@@ -15,7 +15,7 @@
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 <img src="https://img.shields.io/github/stars/Cuzyoung/CrossEarth.svg?logo=github&label=Stars&color=white">
 
-<a href="https://cuzyoung.github.io/CrossEarth-Homepage/"><img src="https://img.shields.io/badge/HomePage-F5788D?style=for-the-badge&logo&logoColor=white" style="width: 79px;"></a>
+<a href="https://cuzyoung.github.io/CrossEarth-Homepage/"><img src="https://img.shields.io/badge/🌍_Project_Page-E4F578?style=for-the-badge" style="width: 113px;"></a>
 <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" style="width: 80px;"></a>
 <a href="https://www.linkedin.com/in/ziyang-gong-382a182b1/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" style="width: 90px;"></a>
 <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Baidu Netdisk-63C7E6.svg?style=for-the-badge&logo=Baidu&logoColor=white" style="width: 123px;"></a>
