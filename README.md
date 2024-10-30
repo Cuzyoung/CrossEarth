@@ -12,7 +12,14 @@
 
 <sup>∗</sup> Equal contribution, <sup>†</sup> Corresponding author
 
-<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a><a href="https://github.com/Cuzyoung/CrossEarth/stargazers"><img src="https://img.shields.io/badge/Updating-F87AF0?style=flat"></a>
+<a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a>
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Cuzyoung/CrossEarth/)
+<!-- [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Cuzyoung/CrossEarth/stargazers) -->
+
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" style="width: 80px;"></a>
+<a href="https://www.linkedin.com/in/ziyang-gong-382a182b1/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" style="width: 90px;"></a>
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Google Drive-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" style="width: 115px;"></a>
+<a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Baidu Netdisk-0078D4.svg?style=for-the-badge&logo=Baidu&logoColor=white" style="width: 120px;"></a>
 
 <img src="images/teaser_new.png" width="100%">
 
@@ -31,19 +38,28 @@
 
 # 📑 Table of Content
 - [Visualization](#visualization)
-- [Installation](#installation)
+- [Environment Requirements](#environment-requirements)
+- [Inference steps](#inference-steps)
+- [Training steps](#training-steps)
 - [Model Weights with Configs](#model-weights-with-configs)
 <!-- - [Citation](#citation)
  -->
 
 
 ## Visualization  
+__In Radar figure:__
+- CrossEarth achieves SOTA performances on 23 of total 28 evaluation benchmarks across various segmentation scenes, demonstrating strong generalizability.
+
+__In UMAP figures:__
+- CrossEarth extracts features that cluster closely for the same class across different domains, forming well-defined groups in feature space, demonstrating its ability to learn robust, domain-invariant features.
+
+- Moreover, CrossEarth features exhibit high inter-class separability, forming unique clusters for each class and underscoring its strong representational ability to distingguish different categories.
+
 <img src="images/visual.png" width="100%">
 
 
-## Installation
 
-Environment:
+## Environment Requirements:
 ```bash
 conda create -n CrossEarth -y
 conda activate CrossEarth
@@ -57,15 +73,14 @@ pip install xformers=='0.0.20'
 pip install -r requirements.txt
 pip install future tensorboard
 ```
-Inference steps:
+## Inference steps:
 
 First, download the model weights and put them in the ./checkpoints folder (we are uploading, and not available now).
 ```bash
 cd checkpoints
 run download_weights.py
 ```
-or you can download the weights from the following links:
-
+or you can download the weights from the google drive or Baidu Netdisk in the above badges.
 
 Second, change the file path in experiment config files (__configs/base/datasets/xxx.py__ and __configs/CrossEarth_dinov2/xxx.py__), and run the following command to inference. (Take 512x512 inference as an example)
 ```bash
@@ -73,7 +88,9 @@ python tools/test.py configs/CrossEarth_dinov2/CrossEarth_dinov2_mask2former_512
 ```
 Notably, save path of pseudo labels is in the experiment config file. When testing CrossEarth on different benchmarks, you also need to change the class number in [CrossEarth_dinov2_mask2former.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/models/CrossEarth_dinov2_mask2former.py) file.
 
+## Training steps:
 
+Coming soon.
 
 ## Model Weights with Configs
 
