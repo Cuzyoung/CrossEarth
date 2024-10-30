@@ -14,8 +14,9 @@
 
 <a href="" target='_blank'><img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F"> </a>
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Cuzyoung/CrossEarth/)
-<!-- [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Cuzyoung/CrossEarth/stargazers) -->
+<img src="https://img.shields.io/github/stars/Cuzyoung/CrossEarth.svg?logo=github&label=Stars&color=white">
 
+<a href="https://cuzyoung.github.io/CrossEarth-Homepage/"><img src="https://img.shields.io/badge/HomePage-F5788D?style=for-the-badge&logo&logoColor=white" style="width: 79px;"></a>
 <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" style="width: 80px;"></a>
 <a href="https://www.linkedin.com/in/ziyang-gong-382a182b1/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" style="width: 90px;"></a>
 <a href="https://mp.weixin.qq.com/"><img src="https://img.shields.io/badge/Google Drive-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" style="width: 115px;"></a>
@@ -48,7 +49,7 @@
 
 ## Visualization  
 __In Radar figure:__
-- CrossEarth achieves SOTA performances on 23 of total 28 evaluation benchmarks across various segmentation scenes, demonstrating strong generalizability.
+- CrossEarth achieves SOTA performances on 23 evaluation benchmarks across various segmentation scenes, demonstrating strong generalizability.
 
 __In UMAP figures:__
 - CrossEarth extracts features that cluster closely for the same class across different domains, forming well-defined groups in feature space, demonstrating its ability to learn robust, domain-invariant features.
