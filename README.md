@@ -135,7 +135,7 @@ If you find CrossEarth helpful, please consider giving this repo a ⭐ and citin
 @article{crossearth,
   title={CrossEarth: Geospatial Vision Foundation Model for Domain Generalizable Remote Sensing Semantic Segmentation},
   author={Gong, Ziyang and Wei, Zhixiang and Wang, Di and Ma, Xianzheng and Chen, Hongruixuan and Jia, Yuru and Deng, Yupeng and Ji, Zhenming and Zhu, Xiangwei and Yokoya, Naoto and Zhang, Jing and Du, Bo and Zhang, Liangpei},
-  journal={arXiv preprint arXiv:2410.12345},
+  journal={arXiv preprint arXiv:2410.22629},
   year={2024}
 }
 ```
