@@ -80,7 +80,7 @@ First, download the model weights and put them in the ./checkpoints folder (we a
 cd checkpoints
 run download_weights.py
 ```
-or you can download the weights from the google drive or Baidu Netdisk in the above badges.
+or you can download the weights from the huggingface or Baidu Netdisk in the above badges.
 
 Second, change the file path in experiment config files (__configs/base/datasets/xxx.py__ and __configs/CrossEarth_dinov2/xxx.py__), and run the following command to inference. (Take 512x512 inference as an example)
 ```bash
