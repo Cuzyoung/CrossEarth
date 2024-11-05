@@ -28,6 +28,7 @@
 <br>
 
 # 🔥🔥🔥 News
+- [2024/11/06] The most checkpoints have been uploaded and you can access them in the huggingface badges.
 
 - The environment and inference steps please refer to the following installation. The inference codes and weights will be coming soon.
 
@@ -75,12 +76,9 @@ pip install future tensorboard
 ```
 ## Inference steps:
 
-First, download the model weights and put them in the ./checkpoints folder (we are uploading, and not available now).
-```bash
-cd checkpoints
-run download_weights.py
-```
-or you can download the weights from the huggingface or Baidu Netdisk in the above badges.
+First, download the model weights from the huggingface or Baidu Netdisk in the above badges.
+Notably, the checkpoints of dinov2_converted.pth and dinov2_converted_1024x1024.pth are needed for inference. 
+Please download them and put them in the CrossEarth/checkpoints folder.
 
 Second, change the file path in experiment config files (__configs/base/datasets/xxx.py__ and __configs/CrossEarth_dinov2/xxx.py__), and run the following command to inference. (Take 512x512 inference as an example)
 ```bash
