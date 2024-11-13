@@ -60,7 +60,7 @@ datasets
             - val
 ```
 ## LoveDA
-First, download LoveDA dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/LoveDA' folder.
+First, download 'LoveDA-CrossEarth.zip' dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/LoveDA' folder.
 
 or Download with wget in MMSegmentation Page:
 ```bash
@@ -104,7 +104,7 @@ python tools/dataset_converters/whu_building.py /path/to/whu_building
 ```
 
 ## DeepGlobe and Massachusetts
-First, download Massachusetts dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/' folder.
+First, download 'Massachusetts.zip' dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/' folder.
 
 Second, unzip the Massachusetts dataset: 
 ```bash
@@ -113,7 +113,7 @@ mkdir Massachusetts
 cd Massachusetts
 unzip Massachusetts.zip 
 ```
-Third, download DeepGlobe dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets' folder.
+Third, download 'DeepGlobe.zip' dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets' folder.
 
 Fourth, unzip the DeepGlobe dataset: 
 ```bash
