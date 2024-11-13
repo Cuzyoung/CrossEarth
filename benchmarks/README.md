@@ -35,7 +35,7 @@ python tools/check_label_id.py /path/to/vaihingen
 ```
 The structure of the processed dataset should be like this:
 ```
-CrossEarth
+datasets
     - Potsdam
         -IRRG
             - img_dir
@@ -60,14 +60,88 @@ CrossEarth
             - val
 ```
 ## LoveDA
+First, download LoveDA dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/LoveDA' folder.
 
+or Download with wget in MMSegmentation Page:
+```bash
+cd datasets
+mkdir LoveDA
+cd LoveDA
+wget https://zenodo.org/record/5706578/files/Train.zip
+wget https://zenodo.org/record/5706578/files/Val.zip
+```
+
+Second, process the LoveDA dataset: 
+```bash
+python tools/dataset_converters/loveda.py /path/to/loveDA
+```
+
+The structure of the processed LoveDA dataset should be like this:
+```
+datasets
+    - LoveDA
+        - Train
+            - Rural
+                - images_png
+                - masks_png
+            - Urban
+                - images_png
+                - masks_png
+        - Val
+            - Rural
+                - images_png
+                - masks_png
+            - Urban
+                - images_png
+                - masks_png
+```
 ## WHU-Building
+First, download WHU-Building dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/' folder.
+
+Second, unzip the WHU-Building dataset: 
+```bash
+python tools/dataset_converters/whu_building.py /path/to/whu_building
+```
 
 ## DeepGlobe and Massachusetts
+First, download Massachusetts dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/' folder.
+
+Second, unzip the Massachusetts dataset: 
+```bash
+cd datasets
+mkdir Massachusetts
+cd Massachusetts
+unzip Massachusetts.zip 
+```
+Third, download DeepGlobe dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets' folder.
+
+Fourth, unzip the DeepGlobe dataset: 
+```bash
+cd ..
+mkdir DeepGlobe
+cd DeepGlobe
+unzip DeepGlobe.zip 
+```
+
+The structure of the Massachusetts and DeepGlobe dataset should be like this:
+```
+datasets
+    - Massachusetts
+        -tiff
+            - train
+            - train_labels
+            - val
+            - val_labels
+            - test
+            - test_labels
+    - DeepGlobe
+        -train
+        -valid
+        -test
+```
 
 ## Potsdam and RescuNet
-<!-- For the Potsdam and RescuNet, we need to conduct label mapping process to unify Potsdam and RescuNet labels. -->
- 
+
 
 
 ## CAISD
