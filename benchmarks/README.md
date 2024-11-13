@@ -14,17 +14,17 @@ Due to the time limit, this part is not available now but will be coming soon.
 
 
 ## Potsdam and Vaihingen
-1. Link to MMSegmentation Page [here](https://mmsegmentation.readthedocs.io/zh-cn/main/user_guides/2_dataset_prepare.html) to find the Potsdam and Vaihingen section.
+First, Link to MMSegmentation Page [here](https://mmsegmentation.readthedocs.io/zh-cn/main/user_guides/2_dataset_prepare.html) to find the Potsdam and Vaihingen section.
 
 For Potsdam dataset, download '3_Ortho_RGB.zip', '3_Ortho_IRRG.zip', and '5_Labels_all_noBoundary.zip'.
 
 For Vaihingen dataset, download 'ISPRS_semantic_labeling_Vaihingen.zip' and 'ISPRS_semantic_labeling_Vaihingen_ground_truth_eroded_COMPLETE.zip'.
 
-2. Process the Potsdam dataset (respectively process RGB and IRRG): 
+Second, Process the Potsdam dataset (respectively process RGB and IRRG): 
 ```bash
 python tools/dataset_converters/potsdam.py /path/to/potsdam
 ```
-3. Process the Vaihingen dataset: 
+Third, Process the Vaihingen dataset: 
 ```bash
 python tools/dataset_converters/vaihingen.py /path/to/vaihingen
 ```
