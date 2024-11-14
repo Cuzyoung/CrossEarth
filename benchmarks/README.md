@@ -1,7 +1,6 @@
 # Benchmark Collection
 Here is the benchmark collection in CrossEarth paper. In this page, we will release the download links, and pre-process scripts of benchmarks. 
 
-Due to the time limit, this part is not available now but will be coming soon.
 <img src="../images/benchmark_collection.png" width="100%">
 
 # Table of Content
@@ -60,7 +59,7 @@ CrossEarth
             - val
 ```
 ## LoveDA
-First, download 'LoveDA-CrossEarth.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk]() and put it in the 'datasets/LoveDA' folder.
+First, download 'LoveDA-CrossEarth.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk](https://pan.baidu.com/s/1PrCKuYaSLW31pZ-P7e95xw?pwd=h78a) and put it in the 'datasets/LoveDA' folder.
 
 or Download with wget in MMSegmentation Page:
 ```bash
@@ -69,7 +68,7 @@ mkdir LoveDA
 cd LoveDA
 wget https://zenodo.org/record/5706578/files/Train.zip
 wget https://zenodo.org/record/5706578/files/Val.zip
-wget https://zenodo.org/record/5706578/files/Test.zip
+wget https://zenodo.org/record/5706578/files/Test.zip   
 ```
 
 Second, process the LoveDA dataset: 
@@ -100,7 +99,7 @@ datasets
                 - masks_png
 ```
 ## WHU-Building
-First, download WHU-Building dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets/' folder.
+First, download WHU-Building dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk](https://pan.baidu.com/s/1PrCKuYaSLW31pZ-P7e95xw?pwd=h78a) and put it in the 'datasets/' folder.
 
 Second, unzip the WHU-Building dataset: 
 ```bash
@@ -123,7 +122,7 @@ mkdir Massachusetts
 cd Massachusetts
 unzip Massachusetts.zip 
 ```
-Third, download 'DeepGlobe.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets' folder.
+Third, download 'DeepGlobe.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk](https://pan.baidu.com/s/1PrCKuYaSLW31pZ-P7e95xw?pwd=h78a) and put it in the 'datasets' folder.
 
 Fourth, unzip the DeepGlobe dataset: 
 ```bash
@@ -157,7 +156,7 @@ datasets
 ## Potsdam and RescuNet
 <!-- For the Potsdam and RescuNet, we need to conduct label mapping process to unify Potsdam and RescuNet labels. -->
  
- We recommend to directly download the processed Potsdam_Res and RescuNet datasets from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk.
+ We recommend to directly download the processed Potsdam_Res and RescuNet datasets from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk](https://pan.baidu.com/s/1PrCKuYaSLW31pZ-P7e95xw?pwd=h78a).
 
 (Optional) Notably, the label id of Potsdam_Res and RescuNet is from 1-6. Make sure label id is consistent and you can use this script to check it.
 ```bash
