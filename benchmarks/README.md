@@ -35,7 +35,7 @@ python tools/check_label_id.py /path/to/vaihingen
 ```
 The structure of the processed dataset should be like this:
 ```
-datasets
+CrossEarth
     - Potsdam
         -IRRG
             - img_dir
@@ -60,7 +60,7 @@ datasets
             - val
 ```
 ## LoveDA
-First, download 'LoveDA-CrossEarth.zip' dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/LoveDA' folder.
+First, download 'LoveDA-CrossEarth.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk]() and put it in the 'datasets/LoveDA' folder.
 
 or Download with wget in MMSegmentation Page:
 ```bash
@@ -96,7 +96,7 @@ datasets
                 - masks_png
 ```
 ## WHU-Building
-First, download WHU-Building dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/' folder.
+First, download WHU-Building dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets/' folder.
 
 Second, unzip the WHU-Building dataset: 
 ```bash
@@ -104,7 +104,7 @@ python tools/dataset_converters/whu_building.py /path/to/whu_building
 ```
 
 ## DeepGlobe and Massachusetts
-First, download 'Massachusetts.zip' dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets/' folder.
+First, download 'Massachusetts.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets/' folder.
 
 Second, unzip the Massachusetts dataset: 
 ```bash
@@ -113,7 +113,7 @@ mkdir Massachusetts
 cd Massachusetts
 unzip Massachusetts.zip 
 ```
-Third, download 'DeepGlobe.zip' dataset from Huggingface and BaiduNetdisk Badges and put it in the 'datasets' folder.
+Third, download 'DeepGlobe.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets' folder.
 
 Fourth, unzip the DeepGlobe dataset: 
 ```bash
@@ -141,7 +141,8 @@ datasets
 ```
 
 ## Potsdam and RescuNet
-
+<!-- For the Potsdam and RescuNet, we need to conduct label mapping process to unify Potsdam and RescuNet labels. -->
+ 
 
 
 ## CAISD
