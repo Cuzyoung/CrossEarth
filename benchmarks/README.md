@@ -69,6 +69,7 @@ mkdir LoveDA
 cd LoveDA
 wget https://zenodo.org/record/5706578/files/Train.zip
 wget https://zenodo.org/record/5706578/files/Val.zip
+wget https://zenodo.org/record/5706578/files/Test.zip
 ```
 
 Second, process the LoveDA dataset: 
