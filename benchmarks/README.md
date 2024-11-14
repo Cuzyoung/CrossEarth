@@ -28,10 +28,10 @@ Third, Process the Vaihingen dataset:
 ```bash
 python tools/dataset_converters/vaihingen.py /path/to/vaihingen
 ```
-Notably, the label id of Potsdam and Vaihingen is from 1-6. Make sure label id is consistent and you can use this script to check it.
+(Optional) Notably, the label id of Potsdam and Vaihingen is from 1-6. Make sure label id is consistent and you can use this script to check it.
 ```bash
-python tools/check_label_id.py /path/to/potsdam
-python tools/check_label_id.py /path/to/vaihingen
+python tools/check_label_id.py --folder-path /path/to/potsdam --dataset potsdam
+python tools/check_label_id.py --folder-path /path/to/vaihingen --dataset vaihingen
 ```
 The structure of the processed dataset should be like this:
 ```
@@ -75,7 +75,10 @@ Second, process the LoveDA dataset:
 ```bash
 python tools/dataset_converters/loveda.py /path/to/loveDA
 ```
-
+(Optional) Notably, the label id of LoveDA is from 1-7. Make sure label id is consistent and you can use this script to check it.
+```bash
+python tools/check_label.py --folder-path /path/to/loveDA --dataset loveda
+```
 The structure of the processed LoveDA dataset should be like this:
 ```
 datasets
@@ -102,6 +105,12 @@ Second, unzip the WHU-Building dataset:
 ```bash
 python tools/dataset_converters/whu_building.py /path/to/whu_building
 ```
+(Optional) Notably, the label id of WHU-Building is from 0-1. Make sure label id is consistent and you can use this script to check it.
+```bash
+python tools/check_label.py --folder-path /path/to/whu_building --dataset building
+```
+The structure of the processed WHU-Building dataset should be like this:
+```
 
 ## DeepGlobe and Massachusetts
 First, download 'Massachusetts.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets/' folder.
@@ -122,7 +131,11 @@ mkdir DeepGlobe
 cd DeepGlobe
 unzip DeepGlobe.zip 
 ```
-
+(Optional) Notably, the label id of Massachusetts and DeepGlobe is from 0-1. Make sure label id is consistent and you can use this script to check it.
+```bash
+python tools/check_label.py --folder-path /path/to/massachusetts --dataset road
+python tools/check_label.py --folder-path /path/to/deepglobe --dataset road
+```
 The structure of the Massachusetts and DeepGlobe dataset should be like this:
 ```
 datasets
@@ -143,6 +156,12 @@ datasets
 ## Potsdam and RescuNet
 <!-- For the Potsdam and RescuNet, we need to conduct label mapping process to unify Potsdam and RescuNet labels. -->
  
+ We recommend to directly download the processed Potsdam_Res and RescuNet datasets from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk.
 
+(Optional) Notably, the label id of Potsdam_Res and RescuNet is from 1-6. Make sure label id is consistent and you can use this script to check it.
+```bash
+python tools/check_label.py --folder-path /path/to/potsdam_res --dataset potsdam_res
+python tools/check_label.py --folder-path /path/to/rescuenet --dataset rescuenet
+```
 
 ## CAISD
