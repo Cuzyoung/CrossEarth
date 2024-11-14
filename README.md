@@ -28,6 +28,9 @@
 <br>
 
 # 🔥🔥🔥 News
+
+- [2024/11/14] We are releasing the benchmark collection, and you can access it at [here](https://github.com/Cuzyoung/CrossEarth/tree/main/benchmarks).
+
 - [2024/11/06] The most checkpoints have been uploaded and you can access them in the huggingface badges.
 
 - The environment and inference steps please refer to the following installation. The inference codes and weights will be coming soon.
