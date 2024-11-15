@@ -18,7 +18,7 @@
 <a href="https://cuzyoung.github.io/CrossEarth-Homepage/"><img src="https://img.shields.io/badge/🌍_Project_Page-E4F578?style=for-the-badge" style="width: 113px;"></a>
 <a href="https://github.com/Cuzyoung/CrossEarth/"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" style="width: 80px;"></a>
 <a href="https://www.linkedin.com/in/ziyang-gong-382a182b1/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" style="width: 90px;"></a>
-<a href="https://github.com/Cuzyoung/CrossEarth/"><img src="https://img.shields.io/badge/Baidu Netdisk-63C7E6.svg?style=for-the-badge&logo=Baidu&logoColor=white" style="width: 123px;"></a>
+<a href="https://pan.baidu.com/s/1nOQlZUTeySn6-jiqjheWhQ?pwd=eq40"><img src="https://img.shields.io/badge/Baidu Netdisk-63C7E6.svg?style=for-the-badge&logo=Baidu&logoColor=white" style="width: 123px;"></a>
 <a href="https://huggingface.co/Cusyoung/CrossEarth/tree/main"> <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge" style="width: 115px;"></a>
 
 <img src="images/teaser_new.png" width="100%">

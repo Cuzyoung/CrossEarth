@@ -165,3 +165,9 @@ python tools/check_label.py --folder-path /path/to/rescuenet --dataset rescuenet
 ```
 
 ## CAISD
+We recommend to directly download the processed 'CAISD.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and [BaiduNetdisk](https://pan.baidu.com/s/1PrCKuYaSLW31pZ-P7e95xw?pwd=h78a).
+
+(Optional) Notably, the label id of CAISD is from 1-5. Make sure label id is consistent and you can use this script to check it.
+```bash
+python tools/check_label.py --folder-path /path/to/caisd --dataset caisd
+```
