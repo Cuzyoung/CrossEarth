@@ -112,6 +112,7 @@ python tools/check_label.py --folder-path /path/to/whu_building --dataset buildi
 The structure of the processed WHU-Building dataset should be like this:
 ```
 
+```
 ## DeepGlobe and Massachusetts
 First, download 'Massachusetts.zip' dataset from [Huggingface](https://huggingface.co/datasets/Cusyoung/CrossEarth-Benchmark/tree/main) and BaiduNetdisk Badges and put it in the 'datasets/' folder.
 
