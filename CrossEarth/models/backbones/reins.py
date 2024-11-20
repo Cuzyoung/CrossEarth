@@ -39,7 +39,7 @@ class Reins(nn.Module):
         self.create_model()
 
     def create_model(self):
-        self.learnable_tokens = nn.Parameter(
+        self.s = nn.Parameter(
             torch.empty([self.num_layers, self.token_length, self.embed_dims])
         )
         self.scale = nn.Parameter(torch.tensor(self.scale_init))
