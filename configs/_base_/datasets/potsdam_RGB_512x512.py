@@ -1,5 +1,5 @@
 Potsdam_RGB_type = "PotsdamReduceDataset"
-Potsdam_RGB_root = "path"
+Potsdam_RGB_root = ""
 Potsdam_RGB_crop_size = (512,512)
 Potsdam_RGB_train_pipeline = [
     dict(type="LoadImageFromFile"),

@@ -2,7 +2,6 @@
 _base_ = [
     # "../_base_/datasets/dg_vai2potIRRG_512x512.py",
     "../_base_/datasets/dg_potsdamRGB2rescue_512x512.py",
-
     "../_base_/default_runtime.py",
     "../_base_/models/CrossEarth_dinov2_mask2former.py",
 ]

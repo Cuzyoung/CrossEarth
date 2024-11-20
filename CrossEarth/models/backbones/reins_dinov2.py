@@ -15,7 +15,7 @@ class ReinsDinoVisionTransformer(DinoVisionTransformer):
         super().__init__(**kwargs)
         self.reins: Reins = MODELS.build(reins_config)
 
-    def forward_features(self, x, is_cross=None, masks=None):
+    def forward_features(self, x, masks=None):
         B, _, h, w = x.shape
         H, W = h // self.patch_size, w // self.patch_size
         if masks is not None:
@@ -31,7 +31,6 @@ class ReinsDinoVisionTransformer(DinoVisionTransformer):
                 idx,
                 batch_first=True,
                 has_cls_token=True,
-                is_cross=is_cross,
             )
             if idx in self.out_indices:
                 outs.append(

@@ -1,5 +1,5 @@
 Rescue_type = "RescueDataset"
-Rescue_root = "path"
+Rescue_root = ""
 Rescue_crop_size = (512,512)
 Rescue_train_pipeline = [
     dict(type="LoadImageFromFile"),

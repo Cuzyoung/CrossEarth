@@ -39,7 +39,7 @@ class Reins(nn.Module):
         self.create_model()
 
     def create_model(self):
-        self.s = nn.Parameter(
+        self.learnable_tokens = nn.Parameter(
             torch.empty([self.num_layers, self.token_length, self.embed_dims])
         )
         self.scale = nn.Parameter(torch.tensor(self.scale_init))
@@ -86,7 +86,7 @@ class Reins(nn.Module):
             return self.learnable_tokens[layer]
 
     def forward(
-        self, image, feats: Tensor, layer: int, batch_first=False, has_cls_token=True, is_cross=None
+        self, image, feats: Tensor, layer: int, batch_first=False, has_cls_token=True,
     ) -> Tensor:
         if batch_first:
             feats = feats.permute(1, 0, 2)
@@ -99,7 +99,6 @@ class Reins(nn.Module):
             feats,
             tokens,
             layer,
-            is_cross,
         )
         delta_feat = delta_feat * self.scale
         feats = feats + delta_feat
@@ -109,8 +108,8 @@ class Reins(nn.Module):
             feats = feats.permute(1, 0, 2)
         return feats
 
-    def forward_delta_feat(self, image, feats: Tensor, tokens: Tensor, layers: int, is_cross=None) -> Tensor:
-        # pdb.set_trace()  # Set a breakpoint for debugging
+    def forward_delta_feat(self, image, feats: Tensor, tokens: Tensor, layers: int) -> Tensor:
+
         attn = torch.einsum("nbc,mc->nbm", feats, tokens)     # nbc is the dimension of feats, mc is the dimension of tokens
 
         if self.use_softmax:
@@ -122,7 +121,7 @@ class Reins(nn.Module):
             self.mlp_token2feat(tokens[1:, :]),   # 1: means the token except the first token, the first token is cls token
                                                 # mlp_token2feat is the linear layer, q*k*v
         )
-      
+       
         delta_f = self.mlp_delta_f(delta_f + feats)
         return delta_f
 

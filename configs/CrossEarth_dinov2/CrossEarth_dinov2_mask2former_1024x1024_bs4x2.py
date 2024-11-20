@@ -2,14 +2,14 @@
 _base_ = [
     "../_base_/datasets/dg_loveda_rural2urban_1024x1024.py",
     "../_base_/default_runtime.py",
-    "../_base_/models/rein_dinov2_mask2former.py",
+    "../_base_/models/CrossEarth_dinov2_mask2former.py",
 ]
 crop_size = (1024, 1024)
 model = dict(
     backbone=dict(
         img_size=1024,
         init_cfg=dict(
-            checkpoint="checkpoints/new/dinov2_converted_1024x1024.pth",
+            checkpoint="checkpoints/dinov2_converted_1024x1024.pth",
         ),
     ),
     data_preprocessor=dict(
