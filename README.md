@@ -104,9 +104,9 @@ Coming soon.
 |-  |V2P(i)| [Vaihingen-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Vaihingen-source.pth) | [dg_vai2potIRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_vai2potIRRG_512x512.py)|- |
 |-  |V2P(r)| [Vaihingen-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Vaihingen-source.pth)| [dg_vai2potIRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_vai2potIRRG_512x512.py) |- |
 |LoveDA|Urban2Rural| Coming Soon | [dg_loveda_rural2urban_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_loveda_rural2urban_1024x1024.py) |Coming Soon |
-|-  |Rural2Urban| Coming Soon | [dg_loveda_urban2rural_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_loveda_urban2rural_1024x1024.py) |Coming Soon |
-|WHU Building|A2S| Coming Soon | Coming Soon |Coming Soon |
-|-  |S2A| Coming Soon | Coming Soon |Coming Soon |
+|-  |Rural2Urban| Coming Soon | [dg_loveda_urban2rural_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_loveda_urban2rural_1024x1024.py) |(Coming Soon) |
+|WHU Building|A2S| [WHU-Building-A2S.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/WHU-Building-A2S.pth) | [dg_building_aerial2satellite.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_building_aerial2satellite.py)|Coming Soon |
+|-  |S2A| [WHU-Building-S2A.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/WHU-Building-S2A.pth)| [dg_building_satellite2aerial.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_building_satellite2aerial.py) |Coming Soon |
 |DeepGlobe and Massachusetts |D2M| Coming Soon | Coming Soon |Coming Soon |
 |ISPRS Potsdam and RescueNet|P(r)2Res| Coming Soon | Coming Soon |Coming Soon |
 |-  |P(i)2Res| Coming Soon | Coming Soon |Coming Soon |
