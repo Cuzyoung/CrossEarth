@@ -97,14 +97,14 @@ Coming soon.
 
 | Dataset | Benchmark | Model | Config | Log |
 |----------|----------|-------| -------| ----|
-|ISPRS Potsdam and Vaihingen|P(i)2V| [Potsdam(i)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(i)-source.pth) | [dg_potIRRG2RGB_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potIRRG2RGB_512x512.py) |Coming Soon |
-|-  |P(i)2P(r)| [Potsdam(i)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(i)-source.pth) | [dg_potIRRG2RGB_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potIRRG2RGB_512x512.py) |- |
-|-  |P(r)2P(i)| [Potsdam(r)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(r)-source.pth) | [dg_potRGB2IRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potRGB2IRRG_512x512.py) |Coming Soon |
+|ISPRS Potsdam and Vaihingen|P(i)2V| [Potsdam(i)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(i)-source.pth) | [dg_potIRRG2RGB_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potIRRG2RGB_512x512.py) |-|
+|-  |P(i)2P(r)| [Potsdam(i)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(i)-source.pth) | [dg_potIRRG2RGB_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potIRRG2RGB_512x512.py) |-|
+|-  |P(r)2P(i)| [Potsdam(r)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(r)-source.pth) | [dg_potRGB2IRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potRGB2IRRG_512x512.py) |-|
 |-  |P(r)2V| [Potsdam(r)-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(r)-source.pth) |  [dg_potRGB2IRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potRGB2IRRG_512x512.py) |- |
-|-  |V2P(i)| Coming Soon | Coming Soon |Coming Soon |
-|-  |V2P(r)| -| - |- |
-|LoveDA|Urban2Rural| Coming Soon | Coming Soon |Coming Soon |
-|-  |Rural2Urban| Coming Soon | Coming Soon |Coming Soon |
+|-  |V2P(i)| [Vaihingen-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Vaihingen-source.pth) | [dg_vai2potIRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_vai2potIRRG_512x512.py)|- |
+|-  |V2P(r)| [Vaihingen-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Vaihingen-source.pth)| [dg_vai2potIRRG_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_vai2potIRRG_512x512.py) |- |
+|LoveDA|Urban2Rural| Coming Soon | [dg_loveda_rural2urban_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_loveda_rural2urban_1024x1024.py) |Coming Soon |
+|-  |Rural2Urban| Coming Soon | [dg_loveda_urban2rural_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_loveda_urban2rural_1024x1024.py) |Coming Soon |
 |WHU Building|A2S| Coming Soon | Coming Soon |Coming Soon |
 |-  |S2A| Coming Soon | Coming Soon |Coming Soon |
 |DeepGlobe and Massachusetts |D2M| Coming Soon | Coming Soon |Coming Soon |
