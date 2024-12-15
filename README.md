@@ -111,20 +111,20 @@ Coming soon.
 |ISPRS Potsdam and RescueNet|P(r)2Res| [Potsdam(r)2RescueNet.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(r)2RescueNet.pth) |[dg_potsdamIRRG2rescue_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potsdamIRRG2rescue_512x512.py) |Coming Soon |
 |-  |P(i)2Res| [Potsdam(i)2RescueNet.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(i)2RescueNet.pth) | [dg_potsdamRGB2rescue_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potsdamRGB2rescue_512x512.py) |Coming Soon |
 |CASID|Sub2Sub| Coming Soon | [dg_casid_subms_1024x1024](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_subms_1024x1024.py)|Coming Soon |
-|-  |Sub2Tem| - | - |- |
-|-  |Sub2Tms| - | - |-|
-|-  |Susb2Trf| - | - |- |
+|-  |Sub2Tem|Coming Soon | [dg_casid_subms_1024x1024](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_subms_1024x1024.py) |- |
+|-  |Sub2Tms| Coming Soon | [dg_casid_subms_1024x1024](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_subms_1024x1024.py) |-|
+|-  |Susb2Trf| Coming Soon | [dg_casid_subms_1024x1024](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_subms_1024x1024.py) |- |
 |-  |Tem2Sub| [casid-tem-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tem-source.pth) | [dg_casid_temms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_temms_1024x1024.py) |Coming Soon |
-|-  |Tem2Tem| - | - |- |
-|-  |Tem2Tms| - | - |- |
-|-  |Tem2Trf| - | - |- |
+|-  |Tem2Tem|[casid-tem-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tem-source.pth) | [dg_casid_temms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_temms_1024x1024.py)|- |
+|-  |Tem2Tms| [casid-tem-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tem-source.pth) | [dg_casid_temms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_temms_1024x1024.py)|- |
+|-  |Tem2Trf| [casid-tem-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tem-source.pth) | [dg_casid_temms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_temms_1024x1024.py)|- |
 |-  |Tms2Sub| [casid-tms-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tms-source.pth)| [dg_casid_troms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_troms_1024x1024.py) |Coming Soon |
-|-  |Tms2Tem| - | - |- |
-|-  |Tms2Trf| - | - |- |
+|-  |Tms2Tem| [casid-tms-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tms-source.pth)| [dg_casid_troms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_troms_1024x1024.py)  |- |
+|-  |Tms2Trf| [casid-tms-source.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/casid-tms-source.pth)| [dg_casid_troms_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_troms_1024x1024.py)  |- |
 |-  |Trf2Sub| Coming Soon | [dg_casid_trorf_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_trorf_1024x1024.py)|Coming Soon |
-|-  |Trf2Tem| - | - |- |
-|-  |Trf2Tms| - | - |- |
-|-  |Trf2Trf| - | - |- |
+|-  |Trf2Tem|Coming Soon | [dg_casid_trorf_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_trorf_1024x1024.py)|- |
+|-  |Trf2Tms| Coming Soon | [dg_casid_trorf_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_trorf_1024x1024.py)|- |
+|-  |Trf2Trf|Coming Soon | [dg_casid_trorf_1024x1024.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_casid_trorf_1024x1024.py)|- |
 
 
 
