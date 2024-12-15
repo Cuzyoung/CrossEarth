@@ -108,9 +108,9 @@ Coming soon.
 |WHU Building|A2S| [WHU-Building-A2S.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/WHU-Building-A2S.pth) | [dg_building_aerial2satellite.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_building_aerial2satellite.py)|Coming Soon |
 |-  |S2A| [WHU-Building-S2A.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/WHU-Building-S2A.pth)| [dg_building_satellite2aerial.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_building_satellite2aerial.py) |Coming Soon |
 |DeepGlobe and Massachusetts |D2M| Coming Soon | Coming Soon |Coming Soon |
-|ISPRS Potsdam and RescueNet|P(r)2Res| Coming Soon | Coming Soon |Coming Soon |
-|-  |P(i)2Res| Coming Soon | Coming Soon |Coming Soon |
-|CASID|Sub2Sub| Coming Soon | Coming Soon |Coming Soon |
+|ISPRS Potsdam and RescueNet|P(r)2Res| [Potsdam(r)2RescueNet.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(r)2RescueNet.pth) |[dg_potsdamIRRG2rescue_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potsdamIRRG2rescue_512x512.py) |Coming Soon |
+|-  |P(i)2Res| [Potsdam(i)2RescueNet.pth](https://huggingface.co/Cusyoung/CrossEarth/blob/main/Potsdam(i)2RescueNet.pth) | [dg_potsdamRGB2rescue_512x512.py](https://github.com/Cuzyoung/CrossEarth/blob/main/configs/_base_/datasets/dg_potsdamRGB2rescue_512x512.py) |Coming Soon |
+|CASID|Sub2Sub| Coming Soon | [dg_casid_subms_1024x1024]()|Coming Soon |
 |-  |Sub2Tem| - | - |- |
 |-  |Sub2Tms| - | - |-|
 |-  |Susb2Trf| - | - |- |
