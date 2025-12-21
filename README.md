@@ -4,13 +4,43 @@
 <h1><img src="images/CrossEarth.png" width="5%"> CrossEarth: Geospatial Vision Foundation Model for Domain Generalizable Remote Sensing Semantic Segmentation</h1>
 
 
-[Ziyang Gong](https://scholar.google.com/citations?user=cWip8QgAAAAJ&hl=zh-CN&oi=ao)<sup>1 ∗</sup>, [Zhixiang Wei](https://scholar.google.com/citations?user=i5W4i9YAAAAJ&hl=zh-CN&oi=sra)<sup>2 ∗</sup>, [Di Wang](https://scholar.google.com/citations?user=3fThjewAAAAJ&hl=zh-CN&oi=sra)<sup>3 ∗</sup>, Xianzheng Ma<sup>3</sup>, [Hongruixuan Chen](https://scholar.google.com/citations?user=XOk4Cf0AAAAJ&hl=zh-CN&oi=ao)<sup>4</sup>, [Yuru Jia](https://scholar.google.com/citations?user=62c9GI0AAAAJ&hl=zh-CN&oi=ao)<sup>56</sup>, [Yupeng Deng](https://scholar.google.com/citations?user=H5X8NDQAAAAJ&hl=zh-CN&oi=ao)<sup>1</sup>, Zhenming Ji<sup>1 †</sup>, Xiangwei Zhu<sup>1 †</sup>, Naoto Yokoya<sup>4</sup>, Jing Zhang<sup>3</sup>, Bo Du<sup>3</sup>, Liangpei Zhang<sup>3</sup>
+Ziyang Gong
+<sup>1∗</sup>,
+Zhixiang Wei
+<sup>2∗</sup>,
+Di Wang
+<sup>3∗</sup>,
+Xiaoxing Hu<sup>8∗</sup>,
+Xianzheng Ma<sup>3</sup>,
+Hongruixuan Chen
+<sup>4,5</sup>,
+Yuru Jia
+<sup>6,7</sup>,
+Yupeng Deng
+<sup>9</sup>,
 
-<sup>1</sup> Sun Yat-sen University, <sup>2</sup> University of Science and Technology of China, <sup>3</sup> Wuhan University, 
+Zhenming Ji<sup>10†</sup>,
+Xiangwei Zhu<sup>8†</sup>,
+Xue Yang<sup>1†</sup>,
+Naoto Yokoya<sup>4,5</sup>,
+Jing Zhang<sup>3</sup>,
+Bo Du<sup>3</sup>,
+Junchi Yan<sup>1</sup>,
+Liangpei Zhang<sup>3</sup>
 
-<sup>4</sup> The University of Tokyo, <sup>5</sup> KU Leuven, <sup>6</sup> KTH Royal Institute of Technology
+<sup>1</sup> SJTU
+<sup>2</sup> USTC
+<sup>3</sup> WHU
+<sup>4</sup> U Tokyo
+<sup>5</sup> RIKEN 
+<sup>6</sup> KU Leuven
+<sup>7</sup> KTH
+<sup>8</sup> BIT
+<sup>9</sup> SYSU
+<sup>10</sup> UCAS
 
-<sup>∗</sup> Equal contribution, <sup>†</sup> Corresponding author
+<sup>*</sup> Equal contribution.
+<sup>†</sup> Corresponding author.
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Cuzyoung.CrossEarth&left_color=%2363C7E6&right_color=%23CEE75F">  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 <img src="https://img.shields.io/github/stars/Cuzyoung/CrossEarth.svg?logo=github&label=Stars&color=white">
@@ -143,6 +173,7 @@ If you find CrossEarth helpful, please consider giving this repo a ⭐ and citin
 # Other Related Works
 - [MTP: Advancing remote sensing foundation model via multi-task pretraining](https://arxiv.org/abs/2403.13430)
 - [Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2312.04265)
+
 
 
 
