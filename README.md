@@ -18,7 +18,6 @@ Yuru Jia
 <sup>6,7</sup>,
 Yupeng Deng
 <sup>9</sup>,
-
 Zhenming Ji<sup>10†</sup>,
 Xiangwei Zhu<sup>8†</sup>,
 Xue Yang<sup>1†</sup>,
@@ -173,6 +172,7 @@ If you find CrossEarth helpful, please consider giving this repo a ⭐ and citin
 # Other Related Works
 - [MTP: Advancing remote sensing foundation model via multi-task pretraining](https://arxiv.org/abs/2403.13430)
 - [Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation](https://arxiv.org/abs/2312.04265)
+
 
 
 
